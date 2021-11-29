@@ -9,11 +9,11 @@ body {
 }
 .display-1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 4.25rem;
+  font-size: 4.4rem;
   font-display: swap;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 6.8rem;
+  font-size: 7.04rem;
 }
 .display-2 {
   font-family: 'Rubik', sans-serif;
@@ -25,11 +25,11 @@ body {
 }
 .display-4 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   font-display: swap;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 .display-5 {
   font-family: 'Rubik', sans-serif;
@@ -41,11 +41,11 @@ body {
 }
 .display-7 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   font-display: swap;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -54,9 +54,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 3.4rem;
-    font-size: calc( 2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (2.1374999999999997rem + (4.25 - 2.1374999999999997) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 3.52rem;
+    font-size: calc( 2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (2.19rem + (4.4 - 2.19) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.44rem;
@@ -64,9 +64,9 @@ body {
     line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 0.8rem;
-    font-size: calc( 1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1rem + (1 - 1) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.6rem;
+    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 1.44rem;
@@ -542,16 +542,16 @@ a:hover {
   color: #fee3c9;
 }
 /* Scroll to top button*/
-.scrollToTop_wraper {
-  display: none;
+#scrollToTop a {
+  border-radius: 100px;
 }
 .form-control {
   font-family: 'Rubik', sans-serif;
-  font-size: 1rem;
+  font-size: 2rem;
   font-display: swap;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.6rem;
+  font-size: 3.2rem;
 }
 blockquote {
   border-color: #ffffff;
@@ -905,36 +905,33 @@ section.lazy-placeholder:after {
 .cid-sQ9YyOU9A0 .mbr-gallery-item > div > span {
   color: #fabf3f;
 }
-.cid-s2pLUupQoh {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.cid-sQajdSVjJ1 {
+  padding-top: 2rem;
+  padding-bottom: 0rem;
   background-color: #000000;
 }
-@media (min-width: 992px) {
-  .cid-s2pLUupQoh .mbr-figure {
-    padding-right: 4rem;
-  }
+.cid-sQajdSVjJ1 .mbr-text {
+  color: #c1c1c1;
 }
-@media (max-width: 991px) {
-  .cid-s2pLUupQoh .mbr-figure {
-    padding-bottom: 3rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-s2pLUupQoh .mbr-text {
-    text-align: center;
-  }
-}
-.cid-s2pLUupQoh .mbr-text,
-.cid-s2pLUupQoh .mbr-section-btn {
-  text-align: left;
-}
-.cid-s2pLUupQoh H3 {
-  color: #00ff10;
+.cid-sQajdSVjJ1 H3 {
   text-align: center;
+  color: #ffffff;
 }
-.cid-s2pLUupQoh H1 {
+.cid-sQajdSVjJ1 .mbr-text,
+.cid-sQajdSVjJ1 .mbr-section-btn {
   text-align: center;
+  color: #f7ab0a;
+}
+.cid-sQajdSVjJ1 DIV {
+  text-align: right;
+}
+.cid-sQajha7OdJ {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #000000;
+}
+.cid-sQajha7OdJ .mbr-section-subtitle {
+  color: #fabf3f;
 }
 .cid-s2pLWOzolq {
   padding-top: 60px;
